@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**/
+.art-list{
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    list-style: none;
+}
+
+
+.art-item{
+    list-style-type: none;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 5px;
+    background-color: greenyellow;
+    box-shadow:  1px 1px 20px yellow;
+    
+}
+
+
+.artrogo{
+    list-style: none;
+}
+
+
+
+

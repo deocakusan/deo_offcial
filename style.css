@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*グローバルメニュー*/
+.global{
+    font-size: 13px;
+    padding: 0px 15px;
+    background-color:#333;
+}
+
+.nav-list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item{
+    display: inline-block;
+    color: ghostwhite;
+    padding: 13px 15px;
+}
+
+
+
+/*背景*/
+body{
+    background-color: seagreen;
+}
+
+
+
+/*　見出し　*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    text-align: start;
+}
+h1 {
+   font-size: 50px; 
+   letter-spacing: -3px;
+   
+}
+h2{
+   font-size: 60px;
+   letter-spacing: -3px;
+}
+h3{
+    font-size: 35px;
+    letter-spacing: -3px;
+}
+
+
+
+/*ページのタイトル部分*/
+.lead {
+    color: whitesmoke;
+    font-family: serif;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px dotted darkgray;
+    
+}
+
+
+/*ロゴイメ*/
+.logo-image{
+   text-align-last: right;
+}
+
+/*本文*/
+.本文{
+    color: lightgray;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: -2px;
+}
+.木文{
+    color:seagreen ;
+}
+
+/*リンクの文字*/
+a{
+    text-decoration: none;
+}
+
+/*動画の注釈*/
+.注釈{
+    font-size: 15px;
+    color: papayawhip;
+    text-align-last: right;
+    border-bottom: 2px dotted darkgray;
+}
+/*箇条書き*/
+.sidebar-list{
+    font-family: monospace;
+    font-size: 20px;
+    color: lightgray;
+    list-style-image: url(image/dna.png);   
+}
+
+
+.sideborder{
+    border: 5px blue;
+}
+
+
+/*コンテナ幅860px固定左右均等空き*/
+.container{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+
+/*マルチカラム関連*/
+.wrapper{
+    width: 100%;
+    overflow: auto;
+}
+
+.main-content{
+    float: left;
+    width: 66%;
+}
+
+.sidebar{
+    float: right;
+    width: 230px;;
+    padding-top: 24px;
+}
+
+/*リンク集*/
+.links{
+    width: 100%;
+}
+
+
